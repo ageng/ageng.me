@@ -5,7 +5,7 @@ Created with [Ghost](https://ghost.org). Minimalist template.
 
 ## Dependencies
 
-TBA
+Ghost
 
 ## Usage
 

@@ -1,0 +1,20 @@
+<main class="index">
+  <div class="main-container">
+    <div class="index-container">
+      {{#foreach posts}}
+      <a href="{{{url}}}">
+        <section class="hover-parent sliders">
+          <div class="post parent-table index-element">
+            <h4 class="left-cell">
+              {{title}}
+            </h4>
+            <h4 class="right-cell righted index-date">
+              {{date format='DD MMMM YYYY'}}
+            </h4>
+          </div>
+        </section>
+      </a>
+      {{/foreach}}
+    </div>
+  </div>
+</main>
